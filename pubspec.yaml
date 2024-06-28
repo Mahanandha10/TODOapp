@@ -1,0 +1,33 @@
+name: mapp
+description: "A Flutter TODO List APP CREATED BY MJ"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 24.060.10
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_native_splash: ^1.2.0
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+
+flutter:
+  assets:
+    - assets/images/avatar.jpeg
+    - assets/images/splash.png
+    - android/app/src/main/res/mipmap-mdpi/ic_launcher.png
+    - android/app/src/main/res/mipmap-hdpi/ic_launcher.png
+    - android/app/src/main/res/mipmap-xhdpi/ic_launcher.png
+    - android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+    - android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+
+  uses-material-design: true
